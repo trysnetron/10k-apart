@@ -1,0 +1,26 @@
+{
+  "name": "10k-apart",
+  "version": "1.0.0",
+  "description": "Bekk faggruppefagdag",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trysnetron/10k-apart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trysnetron/10k-apart/issues"
+  },
+  "homepage": "https://github.com/trysnetron/10k-apart#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-compress": "^2.0.2"
+  }
+}

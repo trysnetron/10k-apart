@@ -3,11 +3,15 @@ Bekk faggruppefagdag
 
 # How-to
 
-1. Installer browser-sync
+1. Installer deps
 ```bash
-$ npm install -g browser-sync
+$ npm i
 ```
-2. Kjør browser-sync
+2. Kjør dev-server
 ```bash
-$ npx browser-sync start --server
+$ npm run dev
+```
+3. Bygg
+```bash
+$ npm run build
 ```
